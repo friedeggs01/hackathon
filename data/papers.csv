@@ -1,0 +1,8 @@
+paper_id,title,authors,keywords
+P1,Deep Learning in Vision,"Smith et al.","deep learning; computer vision"
+P2,Graph Neural Networks,"Lee et al.","graph; neural networks"
+P3,Transformers for NLP,"Nguyen et al.","transformers; NLP"
+P4,Business for NLP,"John et al.","business; NLP"
+P5,Banking Finance,"Mary et al.","bank; business"
+P6,BankNet: Model for credit fraud,"Hal et al.","bank; deep learning"
+P7,Transformer for loan accept,"Bruce et al.","transformers; bank"

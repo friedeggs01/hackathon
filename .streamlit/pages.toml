@@ -8,3 +8,8 @@ path = "web/search.py"
 name = "Searching Paper"
 icon = "🌏"
 
+[[pages]]
+path = "web/visual.py"
+name = "Visual Literature Mapping"
+icon = "📊"
+
