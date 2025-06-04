@@ -1,0 +1,10 @@
+[[pages]]
+path = "web/chat.py"
+name = "Research Chat with PDF Upload"
+icon = "🔍"
+
+[[pages]]
+path = "web/search.py"
+name = "Searching Paper"
+icon = "🌏"
+
