@@ -5,23 +5,28 @@ icon = "🏠"
 
 [[pages]]
 path = "web/chat.py"
-name = "Research Chat with PDF Upload"
+name = "Retriever Research QnA"
 icon = "🔍"
 
 [[pages]]
 path = "web/search.py"
-name = "Searching Paper"
+name = "Paper Finder+"
 icon = "🌏"
 
 [[pages]]
 path = "web/translate.py"
-name = "PDF Translator"
+name = "Expert Translator"
 icon = "📖"
 
 [[pages]]
 path = "web/plagiarism.py"
 name = "Plagiarism Detection"
-icon = "📖"
+icon = "🔍"
+
+[[pages]]
+path = "web/writing.py"
+name = "Writing Assistant"
+icon = "✍️"
 
 [[pages]]
 path = "web/contact.py"

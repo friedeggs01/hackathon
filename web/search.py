@@ -65,7 +65,6 @@ if keyword_input:
 
         st.write(f"{len(final_filtered)} paper(s) found after applying {filter_type} filter")
 
-    # 4. Display filtered results
     for idx, row in final_filtered.iterrows():
         title = row["title"]
         with st.expander(f"📝 {title}"):

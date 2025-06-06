@@ -120,14 +120,10 @@ with container:
                 )
             st.session_state["translated_text"] = translated
 
-            saved_paths = get_saved_paths(st.session_state["uploaded_filename"])
-            with open(saved_paths["translated_text"], "w", encoding="utf-8") as f:
-                f.write(translated)
-
-    if st.session_state["translated_text"]:
-        st.subheader("🌐 Translated text")
-        st.text_area(
-            f"Translated text ({tgt_lang})",
-            st.session_state["translated_text"],
-            height=300,
-        )
+        if st.session_state["translated_text"]:
+            st.subheader("🌐 Translated text")
+            st.text_area(
+                f"Translated text ({tgt_lang})",
+                st.session_state["translated_text"],
+                height=300,
+            )
