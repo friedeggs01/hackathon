@@ -1,4 +1,9 @@
 [[pages]]
+path = "web/home.py"
+name = "Home"
+icon = "🏠"
+
+[[pages]]
 path = "web/chat.py"
 name = "Research Chat with PDF Upload"
 icon = "🔍"
@@ -8,3 +13,17 @@ path = "web/search.py"
 name = "Searching Paper"
 icon = "🌏"
 
+[[pages]]
+path = "web/translate.py"
+name = "PDF Translator"
+icon = "📖"
+
+[[pages]]
+path = "web/plagiarism.py"
+name = "Plagiarism Detection"
+icon = "📖"
+
+[[pages]]
+path = "web/contact.py"
+name = "Contact"
+icon = "📧"
